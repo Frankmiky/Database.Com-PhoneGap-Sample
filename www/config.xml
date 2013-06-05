@@ -20,7 +20,14 @@
         Enable individual API permissions by defining each here.
         The 'device' permission is required for the 'deviceready' event.
     -->
-    <feature name="http://api.phonegap.com/1.0/camera" />
+    <feature name="http://api.phonegap.com/1.0/battery"/>
+    <feature name="http://api.phonegap.com/1.0/camera"/>
+    <feature name="http://api.phonegap.com/1.0/contacts"/>
+    <feature name="http://api.phonegap.com/1.0/file"/>
+    <feature name="http://api.phonegap.com/1.0/geolocation"/>
+    <feature name="http://api.phonegap.com/1.0/media"/>
+    <feature name="http://api.phonegap.com/1.0/network"/>
+    <feature name="http://api.phonegap.com/1.0/notification"/>
 
     <!--
         If you do not want any permissions to be added to your app, add the
@@ -54,6 +61,7 @@
         A list of available plugins are available at https://build.phonegap.com/docs/plugins
     -->
         <gap:plugin name="Camera" />
+        <gap:plugin name="ChildBrowser" /> 
 
     <!-- Define app icon for each platform. -->
     
